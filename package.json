@@ -1,0 +1,76 @@
+{
+  "name": "@siubeng/tushare-api",
+  "version": "1.0.0",
+  "description": "A third-party Tushare API client for Node.js with TypeScript support",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    "import": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.mjs"
+    },
+    "require": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "build": "tsdown",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint --config eslint.config.mts .",
+    "lint:fix": "eslint --config eslint.config.mts . --fix",
+    "prepublishOnly": "npm run clean && npm run build && npm run test",
+    "release": "npm version patch && npm publish"
+  },
+  "keywords": [
+    "tushare",
+    "api",
+    "finance"
+  ],
+  "author": {
+    "name": "Siubeng",
+    "email": "fythonx@gmail.com",
+    "url": "https://feng.moe/"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fython/tushare-api.git"
+  },
+  "homepage": "https://github.com/fython/tushare-api#readme",
+  "packageManager": "pnpm@10.13.1",
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.30.0",
+    "@eslint/markdown": "^6.6.0",
+    "@trivago/prettier-plugin-sort-imports": "^5.2.2",
+    "@tsconfig/node22": "^22.0.2",
+    "@types/node": "^22.15.34",
+    "@typescript-eslint/eslint-plugin": "^8.35.0",
+    "@typescript-eslint/parser": "^8.35.0",
+    "eslint": "^9.30.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-prettier": "^5.5.1",
+    "globals": "^16.2.0",
+    "prettier": "^3.6.2",
+    "tsdown": "^0.12.9",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.35.0"
+  }
+}

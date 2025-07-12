@@ -1,0 +1,11 @@
+node_modules/
+dist/
+tmp/
+
+.DS_Store
+*.log
+
+.env
+.env.local
+.env.production
+config.json
