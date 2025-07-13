@@ -4,6 +4,8 @@ A third-party [Tushare](https://tushare.pro/) API client for Node.js with TypeSc
 
 Based on the official Tushare API ([通过HTTP获取数据](https://tushare.pro/document/1?doc_id=130))
 
+If you have any questions or issues, please feel free to open an issue or discuss in the [Discussions](https://github.com/fython/tushare-api/discussions).
+
 ## Installation
 
 ```bash
