@@ -1,6 +1,6 @@
 {
   "name": "@siubeng/tushare-api",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "A third-party Tushare API client for Node.js with TypeScript support",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
