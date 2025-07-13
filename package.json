@@ -25,12 +25,13 @@
   },
   "scripts": {
     "build": "tsdown",
+    "clean": "rm -rf dist",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "typecheck": "tsc --noEmit",
     "lint": "eslint --config eslint.config.mts .",
     "lint:fix": "eslint --config eslint.config.mts . --fix",
-    "prepublishOnly": "npm run clean && npm run build && npm run test",
+    "prepublishOnly": "npm run clean && npm run build",
     "release": "npm version patch && npm publish"
   },
   "keywords": [
