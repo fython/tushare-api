@@ -29,6 +29,9 @@ importers:
       '@typescript-eslint/parser':
         specifier: ^8.35.0
         version: 8.36.0(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3)
+      dotenv:
+        specifier: ^17.2.0
+        version: 17.2.0
       eslint:
         specifier: ^9.30.0
         version: 9.31.0(jiti@2.4.2)
@@ -643,6 +646,10 @@ packages:
   diff@8.0.2:
     resolution: {integrity: sha512-sSuxWU5j5SR9QQji/o2qMvqRNYRDOcBTgsJ/DeCf4iSN4gW+gNMXM7wFIP+fdXZxoNiAnHUTGjCr+TSWXdRDKg==}
     engines: {node: '>=0.3.1'}
+
+  dotenv@17.2.0:
+    resolution: {integrity: sha512-Q4sgBT60gzd0BB0lSyYD3xM4YxrXA9y4uBDof1JNYGzOXrQdQ6yX+7XIAqoFOGQFOTK1D3Hts5OllpxMDZFONQ==}
+    engines: {node: '>=12'}
 
   dts-resolver@2.1.1:
     resolution: {integrity: sha512-3BiGFhB6mj5Kv+W2vdJseQUYW+SKVzAFJL6YNP6ursbrwy1fXHRotfHi3xLNxe4wZl/K8qbAFeCDjZLjzqxxRw==}
@@ -1796,6 +1803,8 @@ snapshots:
       dequal: 2.0.3
 
   diff@8.0.2: {}
+
+  dotenv@17.2.0: {}
 
   dts-resolver@2.1.1: {}
 
