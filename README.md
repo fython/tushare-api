@@ -1,5 +1,10 @@
 # tushare-api
 
+> [!WARNING]
+> This is an experimental project and may not be suitable for production use.
+>
+> 这是一个实验性项目，可能不适合生产环境使用。我正在慢慢完善和测试
+
 A third-party [Tushare](https://tushare.pro/) API client for Node.js with TypeScript support.
 
 Based on the official Tushare API ([通过HTTP获取数据](https://tushare.pro/document/1?doc_id=130))
